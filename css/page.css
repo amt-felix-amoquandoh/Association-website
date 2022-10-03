@@ -394,7 +394,7 @@ body.light-theme{
   .carousel-inner,
   .carousel-item,
   .carousel-item.active {
-    height: 75vh;
+    height: 85vh;
   }
 }
 
