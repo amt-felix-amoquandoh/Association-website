@@ -73,8 +73,16 @@ i{
 }
 
 .siteLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.siteLogo img{
     height: auto;
-    width: 6rem;
+    width: 5rem;
+    margin-right: 10px;
 }
 /* Theme color change */
 body.light-theme{
