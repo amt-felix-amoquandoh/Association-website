@@ -284,12 +284,12 @@ body.light-theme{
 }
 
 /* Featured articles */
-.featured-articles{
+/* .featured-articles{
     padding-block: 2rem;
-}
+} */
 
 .section-header-offset{
-    margin-top: 7.4rem;
+    margin-top: 2.4rem;
 }
 
 .featured-articles-container,
@@ -487,7 +487,7 @@ body.light-theme{
 }
 
 .article.swiper-slide{
-    height: 65rem;
+    height: 50rem;
 }
 
 .quick-read{

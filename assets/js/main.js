@@ -80,11 +80,11 @@ const swiper = new Swiper(".swiper", {
     breakpoints: {
         // 700px and up shoes 2 slides
         700: {
-          slidesPerView: 2
+          slidesPerView: 1
         },
         // 1200px and up shoes 3 slides
         1200: {
-            slidesPerView: 3
+            slidesPerView: 2
         }
     }   
 });
