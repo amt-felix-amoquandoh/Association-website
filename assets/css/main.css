@@ -71,6 +71,11 @@ button {
 i{
     font-size: var(--font-size-md);
 }
+
+.siteLogo{
+    height: auto;
+    width: 6rem;
+}
 /* Theme color change */
 body.light-theme{
     --light-color: #3d3d3d;
