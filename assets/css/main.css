@@ -523,18 +523,19 @@ body.light-theme{
     height: 40vh;
     background-color: var(--blue-background);
     margin-bottom: 50px;
+    margin-top: 6rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-     color: var(--white-color);
+     color: var(--bcolor);
      font-size: var(--font-size-md);
   }
   
   .textLink{
     font-weight: bolder;
-    border-bottom: dotted 3px var(--gold-color);
+    border-bottom: dotted 6px var(--gold-color);
   }
   
 
