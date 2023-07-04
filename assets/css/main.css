@@ -3,10 +3,11 @@
 
 /* Custom properties */
 :root{
-    --light-color: #fff;
-    --gold-color:  rgb(184, 159, 19);
+    --light-color: rgb(184, 159, 19);
+    --white-color: white ;
+    --blue-background: #2369BD;
     --light-color-alt: #afb6cd;
-    --primary-background-color: #131417;
+    --primary-background-color: #050505;
     --secondary-background-color: #252830;
     --hover-light-color: var(--light-color);
     --hover-dark-color: var(--primary-background-color);
@@ -516,6 +517,26 @@ body.light-theme{
 .swiper-pagination-bullet{
     background-color:var(--light-color);
 }
+
+#info{
+    padding: 0 100px;
+    height: 40vh;
+    background-color: var(--blue-background);
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     color: var(--white-color);
+     font-size: var(--font-size-md);
+  }
+  
+  .textLink{
+    font-weight: bolder;
+    border-bottom: dotted 3px var(--gold-color);
+  }
+  
 
 /* Older posts */
 .older-posts-grid-wrapper{
