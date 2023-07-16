@@ -315,6 +315,20 @@ body.light-theme{
     align-items: center;
 } 
 
+.gallerycover{
+    width: 100%;
+    height: 55vh;
+    background-size: cover;
+    background-color: goldenrod;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
 .membershipcover{
     width: 100%;
     height: 85vh;
