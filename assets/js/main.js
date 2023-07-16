@@ -73,7 +73,7 @@ const swiper = new Swiper(".swiper", {
         prevEl: '.swiper-button-prev',
     },
     autoplay: {
-        delay: 5000,
+        delay: 3000,
         disableOnInteraction: false,
       },
     // Make the pagination indicators work
