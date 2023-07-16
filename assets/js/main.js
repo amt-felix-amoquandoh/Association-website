@@ -66,7 +66,7 @@ const swiper = new Swiper(".swiper", {
     // How many slides to show
     slidesPerView: 1,
     // How much space between slides
-    spaceBetween: 20,
+    spaceBetween: 10,
     // Make the next and previous buttons work
     navigation: {
         nextEl: '.swiper-button-next',

@@ -291,12 +291,65 @@ body.light-theme{
     width: 100%;
     height: 85vh;
     background-size: cover;
+    background-image: url("../images/assoc\ images/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.eventscover{
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-image: url("../images/assoc\ images/s3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.membershipcover{
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
     background-image: url("../images/assoc\ images/s6.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
-}  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.execscover{
+    width: 100%;
+    height: 55vh;
+    background-size: cover;
+    background-image: url("../images/assoc\ images/s1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.coverContent{
+   background-color: var(--transparent-dark-color);
+   padding: 2rem 4rem;
+   font-size: 4rem;
+   color: #fff;
+   text-align: center;
+}
 
 
 
@@ -501,16 +554,16 @@ body.light-theme{
 }
 
 .article.swiper-slide{
-    height: 50rem;
+    height: 85vh;
 }
 
 .quick-read{
-    margin-top: 3rem;
+    margin-top: 2.82rem;
 }
 
 /* Quick read - Swiper */
 .swiper-wrapper{
-    height: auto;
+    height: 75vh;
 }
 .swiper-controls{
     width: 3.5rem;
@@ -951,6 +1004,10 @@ body.light-theme{
 }
 
 @media (max-device-width: 480px){
+    body{
+        padding: 0 1px;
+        margin: 0;
+    }
     #info{
         height: auto;
         font-size: 1.6rem;
@@ -963,7 +1020,12 @@ body.light-theme{
     }
 
     #cover{
-        height: 70vh;
+        height: 80vh;
     }
+
+    .coverContent{
+        padding: 1.6rem 2rem;
+        font-size: 1.6rem;
+     }
 
 }
